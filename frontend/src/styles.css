@@ -1,0 +1,97 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.tagline,
+.muted {
+  color: #59636e;
+}
+
+.toolbar,
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.summary input {
+  margin-left: auto;
+  min-width: 220px;
+  padding: 6px 10px;
+}
+
+button,
+.file {
+  cursor: pointer;
+  padding: 8px 14px;
+  border: 1px solid #d1d9e0;
+  border-radius: 6px;
+  background: #fff;
+  font: inherit;
+}
+
+.file input {
+  display: none;
+}
+
+.error {
+  color: #cf222e;
+}
+
+.tables {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #d1d9e0;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.card h2 {
+  font-size: 1rem;
+  margin: 0 0 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 2px 8px 2px 0;
+  vertical-align: top;
+}
+
+.mono {
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  margin-right: 4px;
+  border-radius: 10px;
+  background: #ddf4ff;
+  color: #0969da;
+}
+
+.relation {
+  margin: 6px 0 0;
+  font-size: 0.8rem;
+}
